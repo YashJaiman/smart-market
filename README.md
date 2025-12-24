@@ -4,25 +4,24 @@ Smart-Market is a web-based e-commerce platform built as a learning and academic
 The objective of this project is to understand and implement core concepts of web development
 by building a complete online shopping system step by step.
 
-## Current Status
-- Login page UI completed
-- Modern UI with glassmorphism effect
+## 🔹 Features Completed
+- User Login Page
+- User Sign-up Page
+- Dark UI with neon blue theme
+- Responsive and clean layout
 
-## Tech Stack
-- HTML
-- CSS
-- Backend integration planned
+## 🛠 Technologies Used
+- HTML5
+- CSS3
 
-## Features (Planned)
-- User authentication (Login & Sign Up)
-- Forgot password
-- Product listing
-- Shopping cart
-- Checkout flow
+## 🚧 Work in Progress
+- Home Page Design
+- Product Listing UI
+- Categories & Footer Section
 
-## Project Purpose
-This project focuses on improving practical skills in frontend and backend web development,
-including UI design, user authentication, and system workflow.
+## 📌 Note
+This project is currently focused on frontend UI development.  
+Backend functionality will be added later.
 
-## Author
-Yash Jaiman
+---
+© 2025 Smart-Market
