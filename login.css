@@ -4,8 +4,8 @@ html,body {
 }
 body {
     min-height: 100vh;
-    background : url(background.jpg) no-repeat center center/cover;
-}
+   background : url(login.jpg) no-repeat center center/cover; 
+  }
 .wrapper {
      display: flex;
     align-items: center;
@@ -18,7 +18,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     border-style: solid;
-    border-color: rgb(173, 101, 101);
+    border-color: rgba(18, 170, 226, 0.7);
     border-width: 2px;
     border-radius: 20px;
     text-align: center;
@@ -26,16 +26,29 @@ body {
     padding-bottom: 30px;
     padding-top: 30px;
 }
-#one {
-  color: rgb(173, 101, 101);
+#logo {
+  height: 20px;
+  width: auto;
+  margin-right: 1000px;
+  margin-top: 20px;
+  margin-left: 10px;
+  padding-left: auto;
+    border-style: solid;
+    border-color: rgba(18, 170, 226, 0.7);
+    border-width: 2px;
+    border-radius: 20px;
   text-align: center;
+  color: rgba(18, 170, 226, 0.7);
+  font-family: 'Orbitron', sans-serif;
 }
 #name {
+  font-family: 'Poppins', sans-serif;
     color: black;
   text-align: center;
 
 }
 #Password {
+  font-family: 'Poppins', sans-serif;
     color: black;
   text-align: center;
 }
@@ -44,6 +57,32 @@ body {
   text-align: center;     
 }
 h5 {
-    color: rgb(173, 101, 101);
+  font-family: 'Poppins', sans-serif;
+  color: rgba(18, 170, 226, 0.7);;
   text-align: center;
 }
+.forgot_button  {
+  color:rgba(18, 170, 226, 0.7);
+  text-align: right;
+  margin-right: 10px;
+}
+a:hover ,button:hover {
+  color:blue;
+}
+a{
+    color: rgba(18, 170, 226, 0.7);
+    font-size: 12px;
+}
+input {
+height: 20px;
+background-color:  #05080e;
+color:  rgb(18, 170, 226);
+border-radius: 10px;
+border-color:  rgb(18, 170, 226);
+}
+button{
+background-color:  #05080e;
+color:  rgb(18, 170, 226);
+border-radius: 10px;
+}
+
