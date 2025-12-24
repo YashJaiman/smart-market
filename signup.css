@@ -1,0 +1,82 @@
+body{
+margin: 0;
+min-height: 100vh;
+background :url(background-signup.png) no-repeat center center/cover; ;
+}
+.Position{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+
+}
+.signupbox{
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: rgba(18, 170, 226, 0.7);
+    border-width: 2px;
+    border-radius: 20px;
+    text-align: center;
+    backdrop-filter: blur(20px);
+    padding-bottom: 30px;
+    padding-top: 25px;
+}
+b,label{
+  font-family: 'Poppins', sans-serif;
+    color: rgb(18, 170, 226);
+}
+input {
+font-family: 'Poppins', sans-serif;
+background-color:  #05080e;
+color:  rgb(18, 170, 226);
+border-radius: 10px;
+border-color:  rgb(18, 170, 226);
+height: 20px;
+}
+a:hover ,button:hover {
+  color:blue;
+}
+a{
+    color: rgba(18, 170, 226, 0.7);
+    font-size: 15px;
+}
+button{
+background-color:  #05080e;
+color:  rgb(18, 170, 226);
+border-radius: 10px;
+}
+h3{
+    margin-bottom: 40px;
+}
+.terms {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.terms label {
+  font-size: 13px;
+  color: #bfefff;   /* soft neon blue */
+  cursor: pointer;
+}
+.terms input[type="checkbox"] {
+  accent-color: #12aae2;  /* checkbox ka color */
+  margin-right: 6px;
+  vertical-align: middle;
+}
+.terms a {
+  color: #12aae2;
+  text-decoration: none;
+}
+.terms a:hover {
+  text-decoration: underline;
+}
+label{
+    display: inline-block;
+    width: 300px;
+}
+
+
+
